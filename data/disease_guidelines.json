@@ -1,0 +1,141 @@
+{
+  "type2_diabetes": {
+    "condition": "Type 2 Diabetes Mellitus",
+    "overview": "Nutritional management focuses on glycaemic control, weight management, and cardiovascular risk reduction.",
+    "targets": {
+      "daily_calories": "Individualised; typically 1500-2000 kcal for weight loss",
+      "carbohydrates_pct": "45-60% of total calories; prioritise low-GI sources",
+      "protein_pct": "15-20%; ~1.0-1.2 g/kg body weight",
+      "fat_pct": "25-35%; emphasise mono- and polyunsaturated fats",
+      "fiber_g_per_day": "25-38 g, particularly soluble fiber",
+      "added_sugars_pct": "< 10% of total calories",
+      "sodium_mg_per_day": "< 2300 mg"
+    },
+    "recommended_foods": [
+      "Non-starchy vegetables (broccoli, spinach, kale, peppers)",
+      "Legumes (lentils, chickpeas, kidney beans)",
+      "Whole grains (oats, barley, quinoa, brown rice)",
+      "Lean proteins (chicken breast, turkey, fish, tofu)",
+      "Low-fat dairy or plant-based alternatives",
+      "Berries, apples, pears (low-GI fruits)",
+      "Nuts and seeds (almonds, walnuts, chia seeds)",
+      "Healthy oils (olive oil, avocado oil)"
+    ],
+    "foods_to_limit": [
+      "Refined carbohydrates (white bread, white rice, pastries)",
+      "Sugary beverages (soda, fruit juice, energy drinks)",
+      "High-GI fruits (watermelon, pineapple in large amounts)",
+      "Processed meats (sausage, bacon, hot dogs)",
+      "Trans fats and saturated fats",
+      "Alcohol"
+    ],
+    "meal_timing": "Consistent meal times; avoid skipping meals; small frequent meals preferred",
+    "glycemic_index_guidance": "Prefer GI < 55; GL per meal < 10",
+    "drug_interactions": [
+      {"drug": "Metformin", "nutrient": "Vitamin B12", "interaction": "Long-term Metformin use can deplete B12; monitor and supplement if needed"},
+      {"drug": "Sulfonylureas", "nutrient": "Alcohol", "interaction": "Alcohol combined with sulfonylureas increases hypoglycemia risk"}
+    ]
+  },
+  "hypertension": {
+    "condition": "Hypertension (High Blood Pressure)",
+    "overview": "DASH (Dietary Approaches to Stop Hypertension) diet is the gold standard evidence-based dietary intervention.",
+    "dash_diet_targets": {
+      "sodium_mg_per_day": "< 1500 mg (ideal) to < 2300 mg",
+      "potassium_mg_per_day": "4700 mg",
+      "calcium_mg_per_day": "1000-1200 mg",
+      "magnesium_mg_per_day": "420 mg (men), 320 mg (women)",
+      "fiber_g_per_day": "30 g",
+      "saturated_fat_pct": "< 6% of total calories",
+      "total_fat_pct": "27% of total calories",
+      "cholesterol_mg_per_day": "< 150 mg"
+    },
+    "recommended_foods": [
+      "Fruits and vegetables (8-10 servings/day)",
+      "Low-fat dairy (2-3 servings/day)",
+      "Whole grains (6-8 servings/day)",
+      "Lean poultry and fish",
+      "Nuts, seeds, legumes (4-5 servings/week)",
+      "Olive oil and vegetable oils"
+    ],
+    "foods_to_limit": [
+      "High-sodium processed foods and canned goods",
+      "Red meats",
+      "Added sugars and sweets",
+      "Saturated and trans fats",
+      "Alcohol (limit to 1 drink/day women, 2/day men)"
+    ],
+    "drug_interactions": [
+      {"drug": "ACE inhibitors", "nutrient": "Potassium", "interaction": "ACE inhibitors raise potassium levels; avoid high-potassium supplements and monitor intake"},
+      {"drug": "Warfarin", "nutrient": "Vitamin K", "interaction": "Consistent Vitamin K intake is essential; avoid sudden large changes in intake"},
+      {"drug": "Statins", "nutrient": "Grapefruit", "interaction": "Grapefruit and grapefruit juice inhibit CYP3A4, dramatically increasing statin blood levels. AVOID completely."}
+    ]
+  },
+  "chronic_kidney_disease": {
+    "condition": "Chronic Kidney Disease (CKD) Stages 3-5",
+    "overview": "Dietary management aims to slow disease progression and manage complications of declining kidney function.",
+    "targets": {
+      "protein_g_per_kg_per_day": "0.6-0.8 (non-dialysis); 1.2-1.4 (dialysis)",
+      "potassium_mg_per_day": "< 2000 mg (Stage 4-5)",
+      "phosphorus_mg_per_day": "< 800-1000 mg",
+      "sodium_mg_per_day": "< 1500-2000 mg",
+      "fluid_restriction_ml_per_day": "1000-1500 ml if oedema present",
+      "calories_kcal_per_kg_per_day": "30-35 (to maintain nitrogen balance)"
+    },
+    "high_potassium_foods_to_avoid": [
+      "Bananas, oranges, avocados, dried fruits",
+      "Potatoes, tomatoes, spinach (unless leached)",
+      "Dairy products (limit)",
+      "Nuts and seeds",
+      "Whole grains (limit due to phosphorus)"
+    ],
+    "high_phosphorus_foods_to_avoid": [
+      "Dairy products",
+      "Dark cola beverages (phosphoric acid)",
+      "Processed meats with phosphate additives",
+      "Nuts and legumes (limit)",
+      "Whole grains"
+    ],
+    "recommended_foods": [
+      "White bread and white rice (lower phosphorus/potassium than whole grain)",
+      "Egg whites (protein with low phosphorus)",
+      "Cabbage, cauliflower, green beans (low-potassium vegetables)",
+      "Berries, grapes, pineapple (lower potassium fruits)",
+      "Olive oil, unsalted butter"
+    ],
+    "drug_interactions": [
+      {"drug": "Phosphate binders", "nutrient": "Phosphorus", "interaction": "Take with meals; avoid high-phosphorus foods to maximise efficacy"},
+      {"drug": "Calcitriol (Vitamin D)", "nutrient": "Calcium/Phosphorus", "interaction": "Monitor calcium and phosphorus levels closely"}
+    ]
+  },
+  "high_cholesterol": {
+    "condition": "Hypercholesterolaemia / Dyslipidaemia",
+    "overview": "Therapeutic Lifestyle Changes (TLC) diet reduces LDL cholesterol by 20-30%.",
+    "targets": {
+      "saturated_fat_pct": "< 7% of total calories",
+      "trans_fat_pct": "Minimal (< 1%)",
+      "dietary_cholesterol_mg_per_day": "< 200 mg",
+      "soluble_fiber_g_per_day": "10-25 g",
+      "plant_sterols_g_per_day": "2 g"
+    },
+    "recommended_foods": [
+      "Oats, barley, and other whole grains (beta-glucan soluble fiber)",
+      "Legumes (lentils, chickpeas, kidney beans)",
+      "Fatty fish (salmon, mackerel, sardines - omega-3)",
+      "Nuts (walnuts, almonds - plant sterols)",
+      "Avocado (monounsaturated fats)",
+      "Plant sterol-enriched foods (margarine, orange juice)",
+      "Fruits rich in pectin (apples, pears, citrus)"
+    ],
+    "foods_to_limit": [
+      "Red meat and full-fat dairy",
+      "Coconut and palm oil",
+      "Commercially baked and fried foods",
+      "Trans fats (partially hydrogenated oils)",
+      "Shellfish (high cholesterol, limit to occasional)"
+    ],
+    "drug_interactions": [
+      {"drug": "Statins (all)", "nutrient": "Grapefruit", "interaction": "CRITICAL: Grapefruit inhibits CYP3A4 enzyme, raising statin concentrations and risk of myopathy/rhabdomyolysis. Avoid entirely."},
+      {"drug": "Niacin (Vitamin B3 therapy)", "nutrient": "Alcohol", "interaction": "Alcohol combined with niacin therapy increases flushing and liver toxicity risk"}
+    ]
+  }
+}
